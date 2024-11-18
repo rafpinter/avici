@@ -24,11 +24,11 @@ setup(
     install_requires=[
         'jax>=0.3.17',
         'jaxlib>=0.3.14',
-        # 'tensorflow==2.9.1',
+        'tensorflow==2.10.0',
         'imageio',
         'jupyter',
         'matplotlib',
-        # 'numpy',
+        'numpy==1.26.4',
         'pandas',
         'igraph',
         'scikit-learn',
